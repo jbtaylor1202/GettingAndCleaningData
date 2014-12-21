@@ -15,8 +15,10 @@ Raw Data
 --------
 The raw data were produced by accelerometer and gyroscopes within a Samsun smartphone. The data were collected as part of a study of "Human Activity Recognition Using Smartphones Data Set". The dataset contains data from 30 volunteers aged between 19 and 48 years old. The raw data had already undergone some processing prior to being made available. For example, the signals from accelerometer and gyroscope were were pre-processed by applying noise filters and all data were normalized and bounded within [-1,1]. Full details of the data and data treatments can be found here:
 
-[source](https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip) with description of the 
+*Data download:*
+[source](https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip) 
 
+*Data description:*
 [description](http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones)
 
 

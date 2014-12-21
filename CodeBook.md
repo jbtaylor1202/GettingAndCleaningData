@@ -9,8 +9,10 @@ Raw Data
 --------
 The raw data were produced by accelerometer and gyroscopes within a Samsun smartphone. The data were collected as part of a study of "Human Activity Recognition Using Smartphones Data Set". 
 
-[source](https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip) with description of the 
+*Data download:*
+[source](https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip) 
 
+*Data description:*
 [description](http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones)
 
 
@@ -31,24 +33,23 @@ The variable names listed within the Variable column of the dataset are compund 
 >
 * t prefix - time domain signal. All time domain signals were at a constant rate of 50 Hz and then filtered using a median filter and a 3rd order low pass Butterworth filter with a corner frequency of 20 Hz to remove noise. 
 * f prefix - frequency domain signal.
-
+>
 * Body - component of the signal due to body movement.
 * Gravity - component of the signal due to gravity.
-
+>
 * Acc - signals obtianed from the accelerometer. All acceleration signals were processed using using a low pass Butterworth filter with a corner frequency of 0.3 Hz. 
 * Gyro - signals obtianed from the gyroscope.
 * Jerk - signals of the body linear acceleration and angular velocity derived in time.
 * Mag - magnitude of the three-dimensional Jerk signals as calculated using the Euclidean norm 
-
+>
 * mean() - mean value.
 * std - standard deviation.
 * meanFreq () - weighted average of the frequency components to obtain a mean frequency.
-
-
+>
 * X - 3-axial signals in the X direction. 
 * Y - 3-axial signals in the Y direction. 
 * Z - 3-axial signals in the Z direction. 
->
+
 
 
 Full list of variable names within the TidyData.txt file
