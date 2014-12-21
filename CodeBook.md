@@ -23,7 +23,7 @@ The TidyData.txt file contains four columns (varibales):
 1. Subject - an identifier for study participants ranging from 1 to 30.
 2. Activity - A description of the different activity types assigned to the orignal data set. These are self-explanatory and are named: walking, walking upstairs, walking downstairs, sitting, standing or laying.
 3. Variable - a description of the variable for whaich a measurement is provided (see subsequent sections for further details about these variables).
-4. Mean - the average (mean) of the associated variable for the respective subject (e.g. the mean value of the variable tBodyAcc-mean()-X for subject 1 while laying).
+4. Mean - the average (mean) of the associated variable for the respective subject (e.g. the mean value of the variable tBodyAcc-mean()-X for subject 1 while laying). All data were normalised and bounded within the range [-1,1] and as such did not have units.
 
 
 Variable
